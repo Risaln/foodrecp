@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:600;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-color: rgb(255, 255, 255);
+   
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(85, 65, 104);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: sticky;
+    top: 0;   
+    
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 15px;
+    
+
+    
+}
+
+
+nav ul li{
+    display: flex;
+    justify-content:  space-evenly;
+    
+}
+
+nav ul li a{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    color:rgb(254, 252, 255);
+    text-decoration: none;
+    font-size: larger;
+    
+   
+    
+}
+.navi{
+
+    width: 70%;
+    height: 40px;
+
+    display: flex;
+   
+    align-items: center;
+    justify-content: right;
+    
+
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(207, 204, 30);
+    width: 30%;
+    margin-right: 20px;
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+}
+img{
+    width: 80px;
+    height: 50px;
+}
+
+
+.logo {
+    width: 30%;
+    height: 40px;
+    display: flex;
+   align-items: center;
+   justify-content: left;
+   margin: 0px 16px;
+   padding: 3px 3px 3px 3px;
+   
+}
+
+.foodmenu{
+    display: flex;
+    width: 100%;
+   margin: 5px;
+   border: 4px solid black;
+    
+}
+
+.im{
+   
+    width: 30%;
+    height: 60px;
+   
+}
+
+.recp{
+    background-color: rgb(204, 173, 234);
+    width: 35%;
+    height: 300px;
+    text-align: center;
+    justify-content:center;
+    margin:0px 5px ;
+}
+
+.vid{
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    height: 300px;
+}
+
+h2{
+    text-align: center;
+}
+
+.im img{
+    width: 100%;
+    height: 300px;
+}
+
+h3{
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+p{
+    margin-top: 29px;
+    text-align: start;
+    padding: 0px 30px;
+}
+
+iframe{
+    width: 100%;
+    height: 300px;
+
+}
+
+#ab{
+    
+     text-align: center;
+    justify-content:center;
+}
+
+#home{
+
+  
+}
+
+.main{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://diabetes.org/sites/default/files/2019-08/Diabetes-Superfoods-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.main h4{
+    text-align: center;
+    
+    align-content: center;
+    padding-top: 160px;
+    font-size: 70px;
+
+   
+    
+  
+    font-family: 'Reggae One', cursive;
+
+
+    
+}
+
+#ty{
+    border: 3px solid black;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: cornsilk;
+}
+
